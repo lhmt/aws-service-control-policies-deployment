@@ -167,9 +167,9 @@ Feature: Verify IAM actions
   npm -v
   ```
 ### Let's begin
+- Install `jq` using relevant package manager for Windows/Linux/macOS.
 - Clone this repository and install dependencies
   ```shell
-  brew install jq
   npm install -g -f aws-cdk@1.x
   cd $HOME && mkdir -p environment && cd environment
   git clone https://github.com/aws-samples/aws-service-control-policies-deployment
