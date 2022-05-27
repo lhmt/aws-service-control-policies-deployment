@@ -170,7 +170,7 @@ Feature: Verify IAM actions
 - Clone this repository and install dependencies
   ```shell
   brew install jq
-  npm install -g -f aws-cdk@1.127.0
+  npm install -g -f aws-cdk@1.x
   cd $HOME && mkdir -p environment && cd environment
   git clone https://github.com/aws-samples/aws-service-control-policies-deployment
   cd $HOME/environment/aws-service-control-policies-deployment
